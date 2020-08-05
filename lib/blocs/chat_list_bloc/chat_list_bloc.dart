@@ -47,6 +47,10 @@ class ChatListBloc extends Bloc<ChatListEvent, ChatListState> {
   }
 
   Stream<ChatListState> _mapChatListLoadToState(List<ChatRoomInfo> rooms) async* {
+    rooms.sort((a, b) {
+      return b.lastModified.compareTo(a.lastModified);
+    });
+
     yield ChatListLoadSuccess(chatList: rooms);
   }
 

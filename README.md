@@ -1,16 +1,41 @@
-# open_chat
+# Flutter Firebase Auth With Bloc (Login, Register)
+![Chat](./readme/1.png)
 
-A new Flutter application.
 
-## Getting Started
+### Youtube
+https://youtu.be/5H5XBzeqSyk
+[![Flutter Firebase Open Chat, Auth Base with Bloc](./readme/youtube.png)](https://youtu.be/5H5XBzeqSyk)
 
-This project is a starting point for a Flutter application.
+#### Link
+Firebase Auth With Bloc   
+https://www.youtube.com/watch?v=xGqMgHnDgb8
 
-A few resources to get you started if this is your first Flutter project:
+#### Reference
+Design   
+https://dribbble.com/shots/11001305-FREE-Social-Mobile-App-UI-Kit-Figma
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+▶Packages<br>
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<b>flutter_bloc</b>    
+A Flutter package that helps implement the BLoC pattern.   
+https://pub.dev/packages/flutter_bloc   
+
+<b>firebase_auth</b>   
+A Flutter plugin to use the Firebase Authentication API.   
+https://pub.dev/packages/firebase_auth   
+
+<b>equatable</b>      
+Simplify Equality Comparisons   
+https://pub.dev/packages/equatable   
+
+<b>get_it</b>   
+This is a simple Service Locator   
+https://pub.dev/packages/get_it   
+
+<b>cloud_firestore</b>   
+A Flutter plugin to use the Cloud Firestore API.   
+https://pub.dev/packages/cloud_firestore   
+
+<b>intl</b>   
+Date/number formatting and parsing   
+https://pub.dev/packages/intl   
